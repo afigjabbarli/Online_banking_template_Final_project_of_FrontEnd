@@ -1,0 +1,31 @@
+.header-container{
+    width: 94%;
+    height: 100%;
+    margin: 0px auto;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    .header-row{
+        width: 100%;
+        display: flex;
+        
+        flex-wrap: wrap;
+    }
+}
+ul{
+    list-style-type: none;
+    display: flex;
+   
+    justify-content: flex-start;
+    li{
+        
+        a{
+            text-decoration: none;
+        }
+    }
+}
+.header-col-6{
+    width: 50%;
+}
+   
+
