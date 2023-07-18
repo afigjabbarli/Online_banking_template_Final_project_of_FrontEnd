@@ -1,7 +1,8 @@
 header{
-    background-color: gray;
+    
     .header-top{
         height: 50px;
+        border-bottom: 1px solid rgb(214, 210, 210);
         .header-container{
             width: 93%;
            
@@ -10,11 +11,13 @@ header{
                 width: 100%;
                 display: flex;
                 flex-wrap: wrap;
+                
             }
         }
     }
     .header-bottom{
-        height: 80px;
+        height: 90px;
+        border-bottom: 1px solid rgb(214, 210, 210);
         .header-container{
             width: 93%;
             

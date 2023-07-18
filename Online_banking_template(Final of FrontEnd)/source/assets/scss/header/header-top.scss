@@ -1,1 +1,57 @@
 @import '../Utilities/variables';
+
+header .header-top .header-container .header-row{
+   
+    .About-Us-List{
+        width: 60%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        ul{
+            display: flex;
+            
+            list-style-type: none;
+            li{
+                margin-right: $headerListMarginSpaces;
+               
+                a{
+                    text-decoration: none;
+                    color: $headerLinkTagNormalColors;
+                    font-size: $headerATagFontSizes;
+                    
+                }
+            }
+        }
+    }
+    
+    .Contact-Us-List{
+        height: 50px;
+        width: 40%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        ul{
+            display: flex;
+            
+            list-style-type: none;
+            li{
+                  margin-right: $headerListMarginSpaces;
+                  a{
+                    text-decoration: none;
+                    color: $headerLinkTagNormalColors;
+                    font-size: $headerATagFontSizes;
+                   
+                    i{
+                        margin-left: 10px;
+                    }
+                  }
+            }
+        }
+    }
+}
+header .header-top .header-container .header-row .Contact-Us-List ul li a:hover{
+    color: $headerLinkTagHoverColors;
+}
+header .header-top .header-container .header-row .About-Us-List ul li a:hover{
+    color: $headerLinkTagHoverColors;
+}

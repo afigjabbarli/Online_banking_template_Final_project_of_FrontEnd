@@ -1,8 +1,6 @@
-header {
-  background-color: gray;
-}
 header .header-top {
   height: 50px;
+  border-bottom: 1px solid rgb(214, 210, 210);
 }
 header .header-top .header-container {
   width: 93%;
@@ -14,7 +12,8 @@ header .header-top .header-container .header-row {
   flex-wrap: wrap;
 }
 header .header-bottom {
-  height: 80px;
+  height: 90px;
+  border-bottom: 1px solid rgb(214, 210, 210);
 }
 header .header-bottom .header-container {
   width: 93%;

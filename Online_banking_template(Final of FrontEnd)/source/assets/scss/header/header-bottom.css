@@ -1,1 +1,59 @@
-/*# sourceMappingURL=header-bottom.css.map */
+.header-bottom .header-container .header-row .Our-Products {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+}
+.header-bottom .header-container .header-row .Our-Products ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+}
+.header-bottom .header-container .header-row .Our-Products ul li {
+  margin-right: 30px;
+}
+.header-bottom .header-container .header-row .Our-Products ul li a {
+  text-decoration: none;
+  color: rgba(136, 134, 134, 0.87);
+  font-size: 17px;
+}
+.header-bottom .header-container .header-row .Our-Products img {
+  width: 135px;
+  height: 90px;
+  border-bottom: 1px solid rgb(214, 210, 210);
+}
+
+.header-bottom .header-container .header-row .Our-Products img:hover {
+  cursor: pointer;
+}
+
+.header-bottom .header-container .header-row .Our-Products ul li a:hover {
+  color: black;
+}
+
+.header-bottom .header-container .header-row .Online-Request {
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.header-bottom .header-container .header-row .Online-Request button {
+  width: 150px;
+  height: 45px;
+  border-radius: 8px;
+  background-color: #058d66;
+  border: 2px solid #058d66;
+  color: white;
+  font-size: 17px;
+  transition: 1s;
+}
+.header-bottom .header-container .header-row .Online-Request button i {
+  margin-left: 6px;
+  margin-bottom: 3px;
+}
+
+.header-bottom .header-container .header-row .Online-Request button:hover {
+  transition: 1s;
+  cursor: pointer;
+  background-color: #0ece98;
+}/*# sourceMappingURL=header-bottom.css.map */

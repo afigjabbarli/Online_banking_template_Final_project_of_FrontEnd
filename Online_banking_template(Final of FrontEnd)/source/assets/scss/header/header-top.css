@@ -1,1 +1,48 @@
-/*# sourceMappingURL=header-top.css.map */
+header .header-top .header-container .header-row .About-Us-List {
+  width: 60%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+header .header-top .header-container .header-row .About-Us-List ul {
+  display: flex;
+  list-style-type: none;
+}
+header .header-top .header-container .header-row .About-Us-List ul li {
+  margin-right: 30px;
+}
+header .header-top .header-container .header-row .About-Us-List ul li a {
+  text-decoration: none;
+  color: rgba(136, 134, 134, 0.87);
+  font-size: 17px;
+}
+header .header-top .header-container .header-row .Contact-Us-List {
+  height: 50px;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+header .header-top .header-container .header-row .Contact-Us-List ul {
+  display: flex;
+  list-style-type: none;
+}
+header .header-top .header-container .header-row .Contact-Us-List ul li {
+  margin-right: 30px;
+}
+header .header-top .header-container .header-row .Contact-Us-List ul li a {
+  text-decoration: none;
+  color: rgba(136, 134, 134, 0.87);
+  font-size: 17px;
+}
+header .header-top .header-container .header-row .Contact-Us-List ul li a i {
+  margin-left: 10px;
+}
+
+header .header-top .header-container .header-row .Contact-Us-List ul li a:hover {
+  color: black;
+}
+
+header .header-top .header-container .header-row .About-Us-List ul li a:hover {
+  color: black;
+}/*# sourceMappingURL=header-top.css.map */
