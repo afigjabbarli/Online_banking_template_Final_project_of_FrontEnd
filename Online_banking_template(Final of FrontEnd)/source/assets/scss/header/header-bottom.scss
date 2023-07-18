@@ -18,15 +18,15 @@
            }
         }
     }
-    img{
-        width: 135px;
-        height: 90px;
-        border-bottom: 1px solid rgb(214, 210, 210);
+    a{
+        img{
+            width: 135px;
+            height: 90px;
+            border-bottom: 1px solid rgb(214, 210, 210);
+        }
     }
 }
-.header-bottom .header-container .header-row .Our-Products img:hover{
-    cursor: pointer;
-}
+
 .header-bottom .header-container .header-row .Our-Products ul li a:hover{
     color: $headerLinkTagHoverColors;
 }
@@ -35,20 +35,23 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    button{
-        width: 150px;
-        height: 45px;
-        border-radius: 8px;
-        background-color: $greenButtonNormalColor;
-        border: 2px solid $greenButtonNormalColor;
-        color: white;
-        font-size: $headerATagFontSizes;
-        transition: 1s;
-        i{
-            margin-left: 6px;
-            margin-bottom: 3px;
+    a{
+        button{
+            width: 150px;
+            height: 45px;
+            border-radius: 8px;
+            background-color: $greenButtonNormalColor;
+            border: 2px solid $greenButtonNormalColor;
+            color: white;
+            font-size: $headerATagFontSizes;
+            transition: 1s;
+            i{
+                margin-left: 6px;
+                margin-bottom: 3px;
+            }
         }
     }
+    
 }
 .header-bottom .header-container .header-row .Online-Request button:hover{
     transition: 1s;

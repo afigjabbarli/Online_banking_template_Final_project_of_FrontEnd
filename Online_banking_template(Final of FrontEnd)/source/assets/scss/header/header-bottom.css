@@ -17,14 +17,10 @@
   color: rgba(136, 134, 134, 0.87);
   font-size: 17px;
 }
-.header-bottom .header-container .header-row .Our-Products img {
+.header-bottom .header-container .header-row .Our-Products a img {
   width: 135px;
   height: 90px;
   border-bottom: 1px solid rgb(214, 210, 210);
-}
-
-.header-bottom .header-container .header-row .Our-Products img:hover {
-  cursor: pointer;
 }
 
 .header-bottom .header-container .header-row .Our-Products ul li a:hover {
@@ -37,7 +33,7 @@
   justify-content: flex-end;
   align-items: center;
 }
-.header-bottom .header-container .header-row .Online-Request button {
+.header-bottom .header-container .header-row .Online-Request a button {
   width: 150px;
   height: 45px;
   border-radius: 8px;
@@ -47,7 +43,7 @@
   font-size: 17px;
   transition: 1s;
 }
-.header-bottom .header-container .header-row .Online-Request button i {
+.header-bottom .header-container .header-row .Online-Request a button i {
   margin-left: 6px;
   margin-bottom: 3px;
 }
