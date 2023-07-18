@@ -21,6 +21,9 @@ ul li a {
   text-decoration: none;
 }
 
-.header-col-6 {
-  width: 50%;
+.header-col-6-left{
+  width: 60%;
 }/*# sourceMappingURL=header-global.css.map */
+.header-col-6-right{
+  width: 40%;
+}
