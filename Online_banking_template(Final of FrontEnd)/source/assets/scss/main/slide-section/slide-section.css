@@ -1,0 +1,211 @@
+#slide-section {
+  height: 500px;
+  width: 100%;
+  margin-top: 10px;
+}
+#slide-section .slider-container {
+  width: 100%;
+  height: 100%;
+  border-bottom: 1px solid rgb(214, 210, 210);
+}
+#slide-section .slider-container .slide-one {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(224, 243, 237);
+}
+#slide-section .slider-container .slide-one .slide-image-one {
+  height: 100%;
+  width: 87%;
+  margin-left: 13%;
+  position: relative;
+  top: 31px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(../../../medya/images/slide-images/percentage.png);
+  display: flex;
+  align-items: center;
+}
+#slide-section .slider-container .slide-one .slide-image-one .info {
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+#slide-section .slider-container .slide-one .slide-image-one .info span {
+  margin-bottom: 40px;
+  font-size: 44px;
+  color: hsl(0, 0%, 22%);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+#slide-section .slider-container .slide-one .slide-image-one .info p {
+  margin-bottom: 50px;
+  color: #3d3d3d;
+  font-size: 17px;
+}
+#slide-section .slider-container .slide-one .slide-image-one .info a {
+  text-decoration: none;
+  border-radius: 4px;
+  background-color: #058d66;
+  width: 140px;
+  height: 50px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  transition: 1s;
+}
+#slide-section .slider-container .slide-one .slide-image-one .info a:hover {
+  transition: 1s;
+  background-color: #0ece98;
+}
+#slide-section .slider-container .slide-second {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(255, 235, 240);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+#slide-section .slider-container .slide-second .slide-image-second {
+  background-image: url(../../../medya/images/slide-images/Acc.png);
+  width: 60%;
+  height: 100%;
+  background-repeat: no-repeat;
+}
+#slide-section .slider-container .slide-second .info {
+  width: 28%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 12%;
+}
+#slide-section .slider-container .slide-second .info span {
+  font-size: 44px;
+  color: hsl(0, 0%, 22%);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-bottom: 40px;
+}
+#slide-section .slider-container .slide-second .info p {
+  color: #3d3d3d;
+  font-size: 17px;
+  margin-bottom: 50px;
+}
+#slide-section .slider-container .slide-second .info a {
+  text-decoration: none;
+  border-radius: 4px;
+  background-color: #058d66;
+  width: 140px;
+  height: 50px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  transition: 1s;
+}
+#slide-section .slider-container .slide-second .info a:hover {
+  background-color: #0ece98;
+}
+#slide-section .slider-container .slide-third {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(253, 246, 231);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#slide-section .slider-container .slide-third .slide-image-third {
+  background-image: url(../../../medya/images/slide-images/Group.png);
+  width: 60%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#slide-section .slider-container .slide-third .info {
+  width: 30%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 12%;
+}
+#slide-section .slider-container .slide-third .info span {
+  font-size: 44px;
+  color: hsl(0, 0%, 22%);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-bottom: 40px;
+}
+#slide-section .slider-container .slide-third .info p {
+  color: #3d3d3d;
+  font-size: 17px;
+  margin-bottom: 50px;
+}
+#slide-section .slider-container .slide-third .info a {
+  text-decoration: none;
+  border-radius: 4px;
+  background-color: #058d66;
+  width: 140px;
+  height: 50px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  transition: 1s;
+}
+#slide-section .slider-container .slide-third .info a:hover {
+  background-color: #0ece98;
+}
+#slide-section .slider-container .slide-fourth {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background-color: rgb(231, 244, 249);
+}
+#slide-section .slider-container .slide-fourth .slide-image-fourth {
+  background-image: url(../../../medya/images/slide-images/IMG1.png);
+  width: 40%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  left: 264px;
+}
+#slide-section .slider-container .slide-fourth .info {
+  width: 30%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 12%;
+}
+#slide-section .slider-container .slide-fourth .info span {
+  font-size: 44px;
+  color: hsl(0, 0%, 22%);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-bottom: 40px;
+}
+#slide-section .slider-container .slide-fourth .info p {
+  color: #3d3d3d;
+  font-size: 17px;
+  margin-bottom: 50px;
+}
+#slide-section .slider-container .slide-fourth .info a {
+  text-decoration: none;
+  border-radius: 4px;
+  background-color: #058d66;
+  width: 140px;
+  height: 50px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  transition: 1s;
+}
+#slide-section .slider-container .slide-fourth .info a:hover {
+  background-color: #0ece98;
+}/*# sourceMappingURL=slide-section.css.map */

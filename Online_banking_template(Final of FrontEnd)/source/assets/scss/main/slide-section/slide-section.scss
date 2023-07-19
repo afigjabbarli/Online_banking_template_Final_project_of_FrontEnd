@@ -1,0 +1,236 @@
+@import '../../Utilities/variables';
+// @mixin slideInfoParagraphStyle{
+//     font-weight: 500;
+//     font-size: 15px;
+//     line-height: 24px;
+//     letter-spacing: .5px
+// }
+#slide-section{
+    height: 500px;
+    width: 100%;
+    margin-top: 10px;
+    
+    .slider-container{
+        width: 100%;
+        height: 100%;
+        border-bottom: 1px solid rgb(214, 210, 210);
+        .slide-one{
+            width: 100%;
+            height: 100%;
+            
+            background-color: $second-slide-background-color;
+            .slide-image-one{
+                height: 100%;
+                width: 87%;
+                margin-left: 13%;
+                position: relative;
+                top: 31px;
+                background-position: center;
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-image: url(../../../medya/images/slide-images/percentage.png);
+                display: flex;
+                align-items: center;
+                .info{
+                    height: 350px;
+                   
+                   display: flex;
+                   flex-direction: column;
+                   justify-content: flex-start;
+                   span{
+                    margin-bottom: 40px;
+                    font-size: 44px;
+                    color: hsl(0, 0%, 22%);
+                    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+                   }
+                   p{
+                    
+                      margin-bottom: 50px;
+                      color: #3d3d3d;
+                      font-size: 17px;
+                   }
+                   a{
+                    text-decoration: none;
+                    border-radius: 4px;
+                    background-color: $greenButtonNormalColor;
+                    width: 140px;
+                    height: 50px;color: white;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-size: 18px;
+                    transition: 1s;
+                   }
+                }
+            }
+            .slide-image-one .info a:hover{
+                transition: 1s;
+                background-color: $greenButtonHoverColor;
+            }
+        }
+        .slide-second{
+            width: 100%;
+            height: 100%;
+            background-color: $third-slide-background-color;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+          
+            .slide-image-second{
+                
+                background-image: url(../../../medya/images/slide-images/Acc.png);
+              width: 60%;
+            height: 100%;
+            background-repeat: no-repeat;
+            
+            
+             
+            }
+            .info{
+               width: 28%;
+               height: 300px;
+             
+              display: flex;
+              flex-direction: column;
+              
+              margin-left: 12%;
+                span{
+                    font-size: 44px;
+                    color: hsl(0, 0%, 22%);
+                    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                    margin-bottom: 40px;
+                   }
+                   p{
+                    color: #3d3d3d;
+                      font-size: 17px;
+                      margin-bottom: 50px;
+                   }
+                   a{
+                    text-decoration: none;
+                    border-radius: 4px;
+                    background-color: $greenButtonNormalColor;
+                    width: 140px;
+                    height: 50px;color: white;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-size: 18px;
+                    transition: 1s;
+                   }
+            }
+          
+
+        }
+        .slide-second .info a:hover{
+              background-color: $greenButtonHoverColor;
+        }
+        .slide-third{
+            width: 100%;
+            height: 100%;
+            background-color: $fourth-slide-background-color;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            .slide-image-third{
+               
+                background-image: url(../../../medya/images/slide-images/Group.png);
+                width: 60%;
+                height: 100%;
+                background-position: center;
+                background-repeat: no-repeat;
+                 background-size: cover;
+               
+        }
+        .info{
+            width: 30%;
+            height: 300px;
+          
+           display: flex;
+           flex-direction: column;
+           
+           margin-left: 12%;
+           span{
+            font-size: 44px;
+            color: hsl(0, 0%, 22%);
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            margin-bottom: 40px;
+           }
+           p{
+            color: #3d3d3d;
+              font-size: 17px;
+              margin-bottom: 50px;
+           }
+           a{
+            text-decoration: none;
+            border-radius: 4px;
+            background-color: $greenButtonNormalColor;
+            width: 140px;
+            height: 50px;color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+            transition: 1s;
+           }
+        }
+        }
+        .slide-third .info a:hover{
+            background-color: $greenButtonHoverColor;}
+        .slide-fourth{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            
+            align-items: center;
+            background-color: $first-slide-background-color;
+            
+            
+            .slide-image-fourth{
+               
+                background-image: url(../../../medya/images/slide-images/IMG1.png);
+                width: 40%;
+                height: 100%;
+                background-position: center;
+                background-repeat: no-repeat;
+                 background-size: contain;
+                position: relative;
+                left: 264px;
+                }
+                .info{
+                    width: 30%;
+                height: 300px;
+              
+               display: flex;
+               flex-direction: column;
+               
+               margin-left: 12%;
+               span{
+                font-size: 44px;
+                color: hsl(0, 0%, 22%);
+                font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                margin-bottom: 40px;
+               }
+               p{
+                color: #3d3d3d;
+                  font-size: 17px;
+                  margin-bottom: 50px;
+               }
+               a{
+                text-decoration: none;
+                border-radius: 4px;
+                background-color: $greenButtonNormalColor;
+                width: 140px;
+                height: 50px;color: white;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 18px;
+                transition: 1s;
+               }
+                }
+        }
+        .slide-fourth .info a:hover{
+            background-color: $greenButtonHoverColor;}
+    }
+} 
+                
