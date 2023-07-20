@@ -1,0 +1,89 @@
+@import '../../Utilities/variables';
+#our-services{
+ height: 750px;
+ width: 100%;
+ .container{
+    width: 80%;
+    height: 100%;
+    margin: 0px auto;
+    
+    .row-top{
+        width: 100%;
+        height: 125px;
+      
+       
+        display: flex;
+        flex-wrap: wrap;
+        .col-6{
+            width: 50%;
+            #our-services-title{
+                font-family: Gothic A1;
+                font-weight: 550;
+               color: rgba(0,0,0,.87);
+               line-height: 24px;
+                letter-spacing: .15px;
+                font-size: 36px;
+                margin-bottom: 25px;
+            }
+        }
+    }
+    .row-middle{
+        width: 100%;
+        height: 350px;
+        margin-bottom: 25px;
+        
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        .col-6-left{
+            width: 48%;
+            border-radius: 16px;
+            background-color: $first-slide-background-color;
+           transition: 1s;
+        }
+        .col-6-right{
+            background-color: $third-slide-background-color;
+            width: 48%;
+            border-radius: 16px;
+            transition: 1s;
+        }
+       
+    }
+    .row-bottom{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        .col-4{
+               width: 31%;
+               height: 100%;
+               height: 250px;
+               border-radius: 16px;
+               background-color: dimgray;
+        }
+    }
+ }
+}
+#our-services .container .row-middle .col-6-left:hover{
+    box-shadow: 0 5px 20px #6d6060;
+    cursor: pointer;
+    transition: 1s;
+}
+#our-services .container .row-middle .col-6-right:hover{
+    box-shadow: 0 5px 20px #6d6060;
+    cursor: pointer;
+    transition: 1s;
+}
+#our-services .container .row-bottom .col-4-left{
+    background-color: $fourth-slide-background-color;
+}
+#our-services .container .row-bottom .col-4-middle{
+    background-color: $second-slide-background-color;
+}
+#our-services .container .row-bottom .col-4-right{
+    background-color: $OurServicesFifthBoxColor;
+}
+#our-services .container .row-bottom .col-4:hover{
+    box-shadow: 0 5px 20px #6d6060;
+    cursor: pointer;
+}
