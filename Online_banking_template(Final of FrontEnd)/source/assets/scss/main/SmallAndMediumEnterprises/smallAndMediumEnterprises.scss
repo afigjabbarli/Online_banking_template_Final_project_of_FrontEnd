@@ -1,0 +1,95 @@
+@import'../../Utilities/variables';
+#SmallandMediumEnterprises{
+    margin-top: 60px;
+    height: 650px;
+    width: 100%;
+   
+    .container{
+       height: 100%;
+       width: 80%;
+       margin: 0px auto;
+       
+        .row-top{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            margin-bottom: 50px;
+            flex-wrap: wrap;
+            .col-6{
+                width: 50%;
+               h1{
+                   font-size: 32px;
+                  line-height: 48px;
+                 letter-spacing: .25px;
+                 font-weight: 100;
+                 font-family:'Gothic A1', sans-serif;
+               }
+            }
+        }
+       .row-bottom{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+           .col-4{
+            width: 32%;
+            height: 325px;
+            border-radius: 10px;
+            padding: 25px;
+            box-shadow: 0 5px 20px hwb(0 78% 21%);
+            transition: 1s;
+                ul{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-evenly;
+                    height: 100%;
+                    li{
+                        display: flex;
+                        justify-content: flex-start;
+                        align-items: center;
+                        p{
+                            color: rgba(0,0,0,.6);
+                            font-weight: 500;
+                            font-size: 16px;
+                            line-height: 20px;
+                            letter-spacing: .25px;
+                            
+                        }
+                        #title{
+                            font-family: Gothic A1;
+                            font-weight: 550;
+                           color: rgba(0,0,0,.87);
+                           line-height: 24px;
+                            letter-spacing: .15px;
+                            font-size: 20px;
+                        }
+                        a{
+                            color: #099a71;
+                            font-weight: 550;
+                            font-size: 20px;
+                        }
+                            
+                    }
+                }
+            
+           }
+       }
+            
+    }
+}
+#SmallandMediumEnterprises .container .row-bottom .col-4:hover{
+    box-shadow: 0 5px 20px #6d6060;
+    transition: 0.5s;
+    cursor: pointer;
+}
+#SmallandMediumEnterprises .container .row-bottom .col-4 ul li #divide {
+    border: 3px solid #099a71;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    color: #099a71;
+    font-size: 20px;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
