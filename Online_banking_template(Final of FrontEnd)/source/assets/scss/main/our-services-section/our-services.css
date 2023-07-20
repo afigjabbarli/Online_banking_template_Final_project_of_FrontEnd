@@ -28,19 +28,20 @@
 #our-services .container .row-middle {
   width: 100%;
   height: 350px;
-  margin-bottom: 25px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 #our-services .container .row-middle .col-6-left {
   width: 48%;
+  height: 350px;
   border-radius: 16px;
   background-color: rgb(231, 244, 249);
   transition: 1s;
 }
 #our-services .container .row-middle .col-6-right {
   background-color: rgb(255, 235, 240);
+  height: 350px;
   width: 48%;
   border-radius: 16px;
   transition: 1s;
@@ -50,6 +51,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-top: 25px;
 }
 #our-services .container .row-bottom .col-4 {
   width: 31%;
@@ -73,17 +75,109 @@
 
 #our-services .container .row-bottom .col-4-left {
   background-color: rgb(253, 246, 231);
+  transition: 1s;
 }
 
 #our-services .container .row-bottom .col-4-middle {
   background-color: rgb(224, 243, 237);
+  transition: 1s;
 }
 
 #our-services .container .row-bottom .col-4-right {
   background-color: #f4f5f4;
+  transition: 1s;
 }
 
 #our-services .container .row-bottom .col-4:hover {
   box-shadow: 0 5px 20px #6d6060;
   cursor: pointer;
+  transition: 1s;
+}
+
+#our-services .container .row-middle .col-6-left .col-6 {
+  padding: 30px;
+  width: 50%;
+}
+
+#our-services .container .row-middle .col-6-left .col-6-image .col-6 .more-details a {
+  color: #099a71;
+  font-weight: 550;
+  font-size: 20px;
+}
+
+#our-services .container .row-middle .col-6-left .col-6-image .col-6 .content p {
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  margin-bottom: 10px;
+}
+
+#our-services .container .row-middle .col-6-left .col-6-image .col-6 .title h1 {
+  font-family: Gothic A1;
+  font-weight: 550;
+  color: rgba(0, 0, 0, 0.87);
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  font-size: 20px;
+}
+
+#our-services .container .row-middle .col-6-left .col-6-image .col-6 .title {
+  margin-bottom: 25px;
+}
+
+#our-services .container .row-middle .col-6-left .col-6-image .col-6 .content {
+  margin-bottom: 60px;
+}
+
+#our-services .container .row-middle .col-6-left .col-6-image {
+  background-image: url(../../../medya/images/our-services/pos-terminal.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#our-services .container .row-middle .col-6-right .col-6 {
+  padding: 30px;
+  width: 50%;
+}
+
+#our-services .container .row-middle .col-6-right .col-6-image .col-6 .more-details a {
+  color: #099a71;
+  font-weight: 550;
+  font-size: 20px;
+}
+
+#our-services .container .row-middle .col-6-right .col-6-image .col-6 .content p {
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  margin-bottom: 10px;
+}
+
+#our-services .container .row-middle .col-6-right .col-6-image .col-6 .title h1 {
+  font-family: Gothic A1;
+  font-weight: 550;
+  color: rgba(0, 0, 0, 0.87);
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  font-size: 20px;
+}
+
+#our-services .container .row-middle .col-6-right .col-6-image .col-6 .title {
+  margin-bottom: 25px;
+}
+
+#our-services .container .row-middle .col-6-right .col-6-image .col-6 .content {
+  margin-bottom: 60px;
+}
+
+#our-services .container .row-middle .col-6-right .col-6-image {
+  background-image: url(../../../medya/images/our-services/business-cards.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 50%;
 }/*# sourceMappingURL=our-services.css.map */

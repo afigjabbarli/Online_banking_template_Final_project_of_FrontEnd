@@ -1,4 +1,25 @@
 @import '../../Utilities/variables';
+@mixin ourServicesSectionParagraphStyles(){
+    color: rgba(0,0,0,.6);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: .25px;
+    margin-bottom: 10px;
+}
+@mixin ourServicesSectionTitleStyles{
+    font-family: Gothic A1;
+    font-weight: 550;
+   color: rgba(0,0,0,.87);
+   line-height: 24px;
+    letter-spacing: .15px;
+    font-size: 20px;
+}
+@mixin ourServicesSectionLinkTagStyles{
+    color: #099a71;
+    font-weight: 550;
+    font-size: 20px;
+}
 #our-services{
  height: 750px;
  width: 100%;
@@ -30,19 +51,21 @@
     .row-middle{
         width: 100%;
         height: 350px;
-        margin-bottom: 25px;
+        
         
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
         .col-6-left{
             width: 48%;
+            height: 350px;
             border-radius: 16px;
             background-color: $first-slide-background-color;
            transition: 1s;
         }
         .col-6-right{
             background-color: $third-slide-background-color;
+            height: 350px;
             width: 48%;
             border-radius: 16px;
             transition: 1s;
@@ -54,6 +77,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
+        margin-top: 25px;
         .col-4{
                width: 31%;
                height: 100%;
@@ -76,14 +100,79 @@
 }
 #our-services .container .row-bottom .col-4-left{
     background-color: $fourth-slide-background-color;
+    transition: 1s;
 }
 #our-services .container .row-bottom .col-4-middle{
     background-color: $second-slide-background-color;
+    transition: 1s;
 }
 #our-services .container .row-bottom .col-4-right{
     background-color: $OurServicesFifthBoxColor;
+    transition: 1s;
 }
 #our-services .container .row-bottom .col-4:hover{
     box-shadow: 0 5px 20px #6d6060;
     cursor: pointer;
+    transition: 1s;
+}
+#our-services .container .row-middle .col-6-left .col-6{
+    padding: 30px;
+    width: 50%;
+    
+}
+#our-services .container .row-middle .col-6-left .col-6-image .col-6 .more-details a{
+    @include ourServicesSectionLinkTagStyles();
+}
+#our-services .container .row-middle .col-6-left .col-6-image .col-6 .content p{
+   @include ourServicesSectionParagraphStyles();
+}
+#our-services .container .row-middle .col-6-left .col-6-image .col-6 .title h1{
+    @include ourServicesSectionTitleStyles();
+    
+}
+#our-services .container .row-middle .col-6-left .col-6-image .col-6 .title{
+    margin-bottom: 25px;
+}
+#our-services .container .row-middle .col-6-left .col-6-image .col-6 .content{
+    margin-bottom: 60px;
+}
+#our-services .container .row-middle .col-6-left .col-6-image{
+    background-image: url(../../../medya/images/our-services/pos-terminal.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   
+}
+
+
+
+
+
+
+#our-services .container .row-middle .col-6-right .col-6{
+    padding: 30px;
+    width: 50%;
+    
+}
+#our-services .container .row-middle .col-6-right .col-6-image .col-6 .more-details a{
+    @include ourServicesSectionLinkTagStyles();
+}
+#our-services .container .row-middle .col-6-right .col-6-image .col-6 .content p{
+   @include ourServicesSectionParagraphStyles();
+}
+#our-services .container .row-middle .col-6-right .col-6-image .col-6 .title h1{
+    @include ourServicesSectionTitleStyles();
+    
+}
+#our-services .container .row-middle .col-6-right .col-6-image .col-6 .title{
+    margin-bottom: 25px;
+}
+#our-services .container .row-middle .col-6-right .col-6-image .col-6 .content{
+    margin-bottom: 60px;
+}
+#our-services .container .row-middle .col-6-right .col-6-image{
+    background-image: url(../../../medya/images/our-services/business-cards.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 50%;
 }
