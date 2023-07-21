@@ -53,12 +53,11 @@
   justify-content: space-between;
   margin-top: 25px;
 }
-#our-services .container .row-bottom .col-4 {
+#our-services .container .row-bottom .col-4-hover {
   width: 31%;
   height: 100%;
   height: 250px;
   border-radius: 16px;
-  background-color: dimgray;
 }
 
 #our-services .container .row-middle .col-6-left:hover {
@@ -88,7 +87,7 @@
   transition: 1s;
 }
 
-#our-services .container .row-bottom .col-4:hover {
+#our-services .container .row-bottom .col-4-hover:hover {
   box-shadow: 0 5px 20px #6d6060;
   cursor: pointer;
   transition: 1s;
@@ -120,7 +119,7 @@
   color: rgba(0, 0, 0, 0.87);
   line-height: 24px;
   letter-spacing: 0.15px;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 #our-services .container .row-middle .col-6-left .col-6-image .col-6 .title {
@@ -164,7 +163,7 @@
   color: rgba(0, 0, 0, 0.87);
   line-height: 24px;
   letter-spacing: 0.15px;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 #our-services .container .row-middle .col-6-right .col-6-image .col-6 .title {
@@ -180,4 +179,112 @@
   background-repeat: no-repeat;
   background-position: right;
   background-size: 50%;
+}
+
+#our-services .container .row-bottom .col-4-left {
+  background-image: url(../../../medya/images/our-services/factoring.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+  padding: 25px 25px;
+}
+#our-services .container .row-bottom .col-4-left .col-4 .title {
+  margin-bottom: 25px;
+}
+#our-services .container .row-bottom .col-4-left .col-4 .title h1 {
+  margin-bottom: 5px;
+  font-family: Gothic A1;
+  font-weight: 550;
+  color: rgba(0, 0, 0, 0.87);
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  font-size: 25px;
+}
+#our-services .container .row-bottom .col-4-left .col-4 .content {
+  margin-bottom: 20px;
+}
+#our-services .container .row-bottom .col-4-left .col-4 .content p {
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  margin-bottom: 5px;
+}
+#our-services .container .row-bottom .col-4-left .col-4 .more-details a {
+  color: #099a71;
+  font-weight: 550;
+  font-size: 20px;
+}
+
+#our-services .container .row-bottom .col-4-middle {
+  background-image: url(../../../medya/images/our-services/e-commerce.png);
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-position: right;
+  padding: 25px 25px;
+}
+#our-services .container .row-bottom .col-4-middle .col-4 .title {
+  margin-bottom: 25px;
+}
+#our-services .container .row-bottom .col-4-middle .col-4 .title h1 {
+  margin-bottom: 5px;
+  font-family: Gothic A1;
+  font-weight: 550;
+  color: rgba(0, 0, 0, 0.87);
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  font-size: 25px;
+}
+#our-services .container .row-bottom .col-4-middle .col-4 .content {
+  margin-bottom: 48px;
+}
+#our-services .container .row-bottom .col-4-middle .col-4 .content p {
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  margin-bottom: 5px;
+}
+#our-services .container .row-bottom .col-4-middle .col-4 .more-details a {
+  color: #099a71;
+  font-weight: 550;
+  font-size: 20px;
+}
+
+#our-services .container .row-bottom .col-4-right {
+  background-image: url(../../../medya/images/our-services/bank-guarantee.png);
+  background-repeat: no-repeat;
+  background-size: 40%;
+  background-position: right;
+  padding: 25px 25px;
+}
+#our-services .container .row-bottom .col-4-right .col-4 .title {
+  margin-bottom: 25px;
+}
+#our-services .container .row-bottom .col-4-right .col-4 .title h1 {
+  margin-bottom: 5px;
+  font-family: Gothic A1;
+  font-weight: 550;
+  color: rgba(0, 0, 0, 0.87);
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  font-size: 25px;
+}
+#our-services .container .row-bottom .col-4-right .col-4 .content {
+  margin-bottom: 48px;
+}
+#our-services .container .row-bottom .col-4-right .col-4 .content p {
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  margin-bottom: 5px;
+}
+#our-services .container .row-bottom .col-4-right .col-4 .more-details a {
+  color: #099a71;
+  font-weight: 550;
+  font-size: 20px;
 }/*# sourceMappingURL=our-services.css.map */
