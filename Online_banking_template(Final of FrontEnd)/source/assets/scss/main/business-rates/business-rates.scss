@@ -1,0 +1,182 @@
+@import '../../Utilities/variables';
+#business-rates{
+    margin-top: 150px;
+    height: 900px;
+    width: 100%;
+    .container{
+        width: 80%;
+        margin: 0px auto;
+        height: 100%;
+       
+        .row{
+            width: 100%;
+            
+            display: flex;
+            flex-wrap: wrap;
+           
+            
+        }
+        .row-top{
+            .col-6{
+                width: 50%;
+                height: 125px;
+            }
+            .col-6-left{
+                padding-top: 25px;
+                h1{
+                    margin-bottom: 26px;
+                    font-family: Gothic A1;
+                    font-weight: 550;
+                   color: rgba(0,0,0,.87);
+                   line-height: 24px;
+                    letter-spacing: .30px;
+                    font-size: 30px;
+                }
+            }
+        }
+        .row-bottom{
+            padding: 36px;
+            margin-top: 75px;
+          
+            height: 700px;
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            .col-4{
+                width: 32%;
+                height: 100%;
+                
+                h1{
+                    margin-bottom: 26px;
+                    font-family: Gothic A1;
+                    font-weight: 550;
+                   color: rgba(0,0,0,.87);
+                   line-height: 24px;
+                    letter-spacing: .30px;
+                    font-size: 26px;
+                }
+                .credit{
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items:baseline;
+                    span{
+                     
+                        font-family: Gothic A1;
+                        font-weight: 550;
+                       color: rgba(22, 22, 22, 0.87);
+                       line-height: 24px;
+                        letter-spacing: .30px;
+                        font-size: 55px;
+                        margin-right: 6px;
+                        
+                    }
+                    i{
+                        color: rgba(22, 22, 22, 0.87);
+                        margin-right: 6px;
+                    }
+                    p{
+                        color: rgba(0,0,0,.6);
+                            font-weight: 500;
+                            font-size: 19px;
+                            line-height: 20px;
+                            letter-spacing: .25px;
+                            margin-bottom: 10px;
+                    }
+                }
+                .descriptions{
+                    height: 200px;
+                    ul{
+                        list-style-type: none;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-evenly;
+                        height: 200px;
+                        li{
+                            display: flex;
+                            p{
+                                color: rgba(0,0,0,.6);
+                            font-weight: 500;
+                            font-size: 17px;
+                            line-height: 20px;
+                            letter-spacing: .25px;
+                            margin-right: 6px;
+                        }
+                        span{
+                            color: #099a71;
+                            font-weight: 500;
+                            font-size: 17px;
+                            line-height: 20px;
+                            letter-spacing: .25px;
+                        }
+                            
+                        }
+                        #title{
+                            p{
+                               
+                                font-family: Gothic A1;
+                                font-weight: 550;
+                               color: rgba(0,0,0,.87);
+                               line-height: 24px;
+                                letter-spacing: .15px;
+                                font-size: 18px;
+                            }
+                            
+                        }
+                    }
+                }
+                .button-container{
+                    margin-top: 50px;
+                    height: 100px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    .buttons{
+                        height: 45px;
+                        width: 100%;
+                        border-radius: 8px;
+                        p{
+                            font-family: Gothic A1;
+                            font-weight: 600;
+                            color: #099a71;
+                           line-height: 24px;
+                            letter-spacing: .15px;
+                            font-size: 18px;
+                        }
+                    }
+                    .button-top{
+                        background-color: white;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                       transition: 1s;
+                    }
+                    .button-bottom{
+                        background-color: #099a71;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        transition: 1s;
+                        p{
+                            font-family: Gothic A1;
+                            font-weight: 600;
+                           color: white;
+                           line-height: 24px;
+                            letter-spacing: .15px;
+                            font-size: 18px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+#business-rates .container .row-bottom .col-4 .button-container .button-top:hover{
+    background-color: $second-slide-background-color;
+    transition: 1s;
+    cursor: pointer;
+}
+#business-rates .container .row-bottom .col-4 .button-container .button-bottom:hover{
+    background-color: $greenButtonHoverColor;
+    transition: 1s;
+    cursor: pointer;
+}
