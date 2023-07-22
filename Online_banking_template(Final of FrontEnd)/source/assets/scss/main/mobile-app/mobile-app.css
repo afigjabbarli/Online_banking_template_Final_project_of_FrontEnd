@@ -55,7 +55,7 @@
   width: 100%;
 }
 #mobileApp .container .row .background-image .col-6 .linkTags .col-7 {
-  width: 47%;
+  width: 45%;
   height: 100%;
   display: flex;
   align-items: center;
@@ -86,7 +86,8 @@
 }
 #mobileApp .container .row .background-image .col-6 .linkTags .col-7 .col-4 {
   background-image: url(../../../medya/images/mobile-app/qr.svg);
-  height: 96px;
+  height: 103px;
+  width: 40%;
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
