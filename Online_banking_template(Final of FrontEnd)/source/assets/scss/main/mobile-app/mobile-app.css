@@ -1,0 +1,93 @@
+#mobileApp {
+  margin-top: 50px;
+  height: 480px;
+}
+#mobileApp .container {
+  width: 90%;
+  margin-left: 10%;
+  height: 100%;
+}
+#mobileApp .container .row {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+#mobileApp .container .row .background-image {
+  width: 100%;
+  height: 100%;
+  background-image: url(../../../medya/images/mobile-app/mobile-image.svg);
+  background-position-x: 100%;
+  background-repeat: no-repeat;
+  background-size: 60%;
+}
+#mobileApp .container .row .background-image .col-6 {
+  width: 50%;
+  height: 100%;
+}
+#mobileApp .container .row .background-image .col-6 .title {
+  margin-bottom: 30px;
+  margin-top: 75px;
+}
+#mobileApp .container .row .background-image .col-6 .title h1 {
+  margin-bottom: 5px;
+  font-family: Gothic A1;
+  font-weight: 595;
+  color: black;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  font-size: 22px;
+}
+#mobileApp .container .row .background-image .col-6 .content {
+  margin-bottom: 50px;
+}
+#mobileApp .container .row .background-image .col-6 .content p {
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  margin-bottom: 12px;
+}
+#mobileApp .container .row .background-image .col-6 .linkTags {
+  height: 105px;
+  width: 100%;
+}
+#mobileApp .container .row .background-image .col-6 .linkTags .col-7 {
+  width: 47%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+#mobileApp .container .row .background-image .col-6 .linkTags .col-7 .col-8 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 60%;
+  height: 100%;
+}
+#mobileApp .container .row .background-image .col-6 .linkTags .col-7 .col-8 .rows {
+  height: 50px;
+  width: 100%;
+}
+#mobileApp .container .row .background-image .col-6 .linkTags .col-7 .col-8 .row-top {
+  background-image: url(../../../medya/images/mobile-app/appstore.png);
+  background-position: left;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#mobileApp .container .row .background-image .col-6 .linkTags .col-7 .col-8 .row-bottom {
+  background-image: url(../../../medya/images/mobile-app/google.png);
+  background-position: left;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#mobileApp .container .row .background-image .col-6 .linkTags .col-7 .col-4 {
+  background-image: url(../../../medya/images/mobile-app/qr.svg);
+  height: 96px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}/*# sourceMappingURL=mobile-app.css.map */
