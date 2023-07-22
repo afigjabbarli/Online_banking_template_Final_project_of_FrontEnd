@@ -1,0 +1,232 @@
+#currency-rates {
+  height: 550px;
+  width: 100%;
+}
+#currency-rates .container {
+  width: 80%;
+  height: 100%;
+  margin: 0px auto;
+}
+#currency-rates .container .row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+#currency-rates .container .row .col-6 {
+  width: 49%;
+  height: 100%;
+  border-radius: 8px;
+}
+#currency-rates .container .row-top {
+  height: 100px;
+  width: 100%;
+  margin-bottom: 25px;
+}
+#currency-rates .container .row-top .col-6-left {
+  padding-top: 20px;
+}
+#currency-rates .container .row-top .col-6-left h1 {
+  margin-bottom: 16px;
+  font-family: Gothic A1;
+  font-weight: 595;
+  color: rgb(28, 28, 28);
+  line-height: 22px;
+  letter-spacing: 0.5px;
+  font-size: 32px;
+}
+#currency-rates .container .row-top .col-6-left p {
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+}
+#currency-rates .container .row-middle {
+  height: 300px;
+  width: 100%;
+  margin-bottom: 25px;
+}
+#currency-rates .container .row-middle .col-6 {
+  padding: 30px;
+  box-shadow: 0 5px 20px #a3a3a3;
+}
+#currency-rates .container .row-middle .col-6-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#currency-rates .container .row-middle .col-6-left .first-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 30%;
+}
+#currency-rates .container .row-middle .col-6-left .first-row .col-4 {
+  width: 31%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+#currency-rates .container .row-middle .col-6-left .first-row .col-4 p {
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+}
+#currency-rates .container .row-middle .col-6-left .second-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 30%;
+}
+#currency-rates .container .row-middle .col-6-left .second-row .col-4 {
+  width: 31%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+#currency-rates .container .row-middle .col-6-left .second-row .col-4 img {
+  width: 60px;
+  height: 45px;
+}
+#currency-rates .container .row-middle .col-6-left .second-row .col-4 span {
+  font-family: Gothic A1;
+  font-weight: 500;
+  color: rgb(28, 28, 28);
+  line-height: 22px;
+  letter-spacing: 0.5px;
+  font-size: 28px;
+}
+#currency-rates .container .row-middle .col-6-left .third-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 30%;
+  margin-bottom: 50px;
+}
+#currency-rates .container .row-middle .col-6-left .third-row .col-4 {
+  width: 31%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+#currency-rates .container .row-middle .col-6-left .third-row .col-4 img {
+  width: 60px;
+  height: 45px;
+}
+#currency-rates .container .row-middle .col-6-left .third-row .col-4 span {
+  font-family: Gothic A1;
+  font-weight: 500;
+  color: rgb(28, 28, 28);
+  line-height: 22px;
+  letter-spacing: 0.5px;
+  font-size: 28px;
+}
+#currency-rates .container .row-middle .col-6-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#currency-rates .container .row-middle .col-6-right .first-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 30%;
+}
+#currency-rates .container .row-middle .col-6-right .first-row .col-4 {
+  width: 31%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+#currency-rates .container .row-middle .col-6-right .first-row .col-4 p {
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+}
+#currency-rates .container .row-middle .col-6-right .second-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 30%;
+}
+#currency-rates .container .row-middle .col-6-right .second-row .col-4 {
+  width: 31%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+#currency-rates .container .row-middle .col-6-right .second-row .col-4 img {
+  width: 60px;
+  height: 45px;
+}
+#currency-rates .container .row-middle .col-6-right .second-row .col-4 span {
+  font-family: Gothic A1;
+  font-weight: 500;
+  color: rgb(28, 28, 28);
+  line-height: 22px;
+  letter-spacing: 0.5px;
+  font-size: 28px;
+}
+#currency-rates .container .row-middle .col-6-right .third-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 30%;
+  margin-bottom: 50px;
+}
+#currency-rates .container .row-middle .col-6-right .third-row .col-4 {
+  width: 31%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+#currency-rates .container .row-middle .col-6-right .third-row .col-4 img {
+  width: 60px;
+  height: 45px;
+}
+#currency-rates .container .row-middle .col-6-right .third-row .col-4 span {
+  font-family: Gothic A1;
+  font-weight: 500;
+  color: rgb(28, 28, 28);
+  line-height: 22px;
+  letter-spacing: 0.5px;
+  font-size: 28px;
+}
+#currency-rates .container .row-bottom {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+#currency-rates .container .row-bottom .col-6 {
+  width: 50%;
+}
+#currency-rates .container .row-bottom .col-6 a {
+  text-decoration: none;
+  padding-left: 30px;
+}
+#currency-rates .container .row-bottom .col-6 a span {
+  font-family: Gothic A1;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0.5px;
+  font-size: 16px;
+}/*# sourceMappingURL=currency-rates.css.map */
