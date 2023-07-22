@@ -215,6 +215,7 @@
   width: 100%;
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
 }
 #currency-rates .container .row-bottom .col-6 {
   width: 50%;
