@@ -91,4 +91,12 @@
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
+}
+
+#mobileApp .container .row .background-image .col-6 .linkTags .col-7 .col-8 .rows:hover {
+  cursor: pointer;
+}
+
+#mobileApp .container .row .background-image .col-6 .linkTags .col-7 .col-4:hover {
+  cursor: pointer;
 }/*# sourceMappingURL=mobile-app.css.map */
