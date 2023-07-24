@@ -1,10 +1,4 @@
 
-
-
-var intervalValue;
-var setInputValue;
-
-
 const nextButton = document.querySelector("#Right-button");
 nextButton.addEventListener("click", function(){
   nextSlide()
@@ -32,6 +26,7 @@ function showSlide(index) {
 }
 
 function nextSlide() {
+  
   slideIndex++;
   showSlide(slideIndex);
 }
@@ -40,13 +35,7 @@ function previousSlide() {
   slideIndex--;
   showSlide(slideIndex);
 }
-// autoPlay.addEventListener("click", function(){
-//   intervalValue = setInterval(function() {
-//     nextSlide();
-//   }, setInputValue);
-// })
-// stopAutoPlay.addEventListener("click", function(){
-//   clearInterval(intervalValue);
-// })
-
+setInterval(function() {
   
+  nextSlide();
+}, 2000);
