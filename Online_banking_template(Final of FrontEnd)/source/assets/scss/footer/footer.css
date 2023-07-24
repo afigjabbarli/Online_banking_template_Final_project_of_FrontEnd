@@ -1,0 +1,104 @@
+footer {
+  margin-top: 50px;
+  height: 800px;
+  width: 100%;
+}
+footer .container {
+  width: 80%;
+  margin: 0px auto;
+  height: 700px;
+  margin-bottom: 40px;
+}
+footer .container .row-top {
+  height: 150px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .container .row-top .col-3 {
+  width: 23%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+footer .container .row-top .col-3 .content span {
+  color: rgb(35, 35, 35);
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  margin-bottom: 5px;
+}
+footer .container .row-top .col-3 .content p {
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  font-size: 15px;
+}
+footer .container .row-bottom {
+  width: 100%;
+  height: 500px;
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .container .row-bottom .col-3 {
+  width: 23%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+footer .container .row-bottom .col-3 span {
+  margin-bottom: 15px;
+  margin-bottom: 16px;
+  font-family: Gothic A1;
+  font-weight: 595;
+  color: rgb(28, 28, 28);
+  line-height: 22px;
+  letter-spacing: 0.5px;
+  font-size: 32px;
+  font-size: 16px;
+  font-weight: 600;
+}
+footer .container .row-bottom .col-3 p {
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  color: rgba(136, 134, 134, 0.87);
+  transition: 1s;
+}
+footer .container .row-bottom .col-3 ul {
+  width: 80%;
+  height: 60pxs;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer .container .row-bottom .col-3 ul li i {
+  transition: 1s;
+}
+
+footer .container .row-bottom .col-3 p:hover {
+  color: black;
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+footer .container .row-bottom .col-3 ul li i:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: 1s;
+}/*# sourceMappingURL=footer.css.map */
