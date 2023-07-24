@@ -1,0 +1,104 @@
+#news {
+  height: 350px;
+  margin-top: 50px;
+  width: 100%;
+}
+#news .news-container {
+  width: 80%;
+  height: 100%;
+  margin: 0px auto;
+}
+#news .news-container .first-row {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+#news .news-container .first-row .title {
+  width: 24%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+#news .news-container .first-row .title h1 {
+  margin-bottom: 16px;
+  font-family: Gothic A1;
+  font-weight: 595;
+  color: rgb(28, 28, 28);
+  line-height: 22px;
+  letter-spacing: 0.5px;
+  font-size: 32px;
+  font-size: 36px;
+  font-weight: 500;
+}
+#news .news-container .second-row {
+  margin-top: 30px;
+  height: 140px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+#news .news-container .second-row .col-3 {
+  width: 24%;
+  height: 140px;
+  transition: 1s;
+}
+#news .news-container .second-row .col-3 .date span {
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  font-size: 17px;
+}
+#news .news-container .second-row .col-3 .news-info {
+  margin-top: 25px;
+}
+#news .news-container .second-row .col-3 .news-info p {
+  color: rgb(35, 35, 35);
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  margin-bottom: 5px;
+}
+#news .news-container .third-row {
+  height: 50px;
+  width: 100%;
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+#news .news-container .third-row .learn-more {
+  width: 24%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+#news .news-container .third-row .learn-more span {
+  font-family: Gothic A1;
+  font-weight: 800;
+  color: #099a71;
+  line-height: 22px;
+  letter-spacing: 0.5px;
+  font-size: 16px;
+}
+
+#news .news-container .second-row .col-3:hover {
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+#news .news-container .second-row .col-3 .news-info p:hover {
+  color: #0ece98;
+}
+
+#news .news-container .third-row .learn-more span:hover {
+  cursor: pointer;
+}/*# sourceMappingURL=news.css.map */
